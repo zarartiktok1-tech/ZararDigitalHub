@@ -1,0 +1,14 @@
+{
+  "name": "zarar-digital-hub-gate",
+  "version": "1.0.0",
+  "description": "Access-code gated Zarar Digital Hub starter",
+  "main": "server.js",
+  "scripts": {"start": "node server.js"},
+  "engines": {"node": ">=20"},
+  "dependencies": {
+    "cookie-session": "^2.1.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "mongodb": "^6.20.0"
+  }
+}
